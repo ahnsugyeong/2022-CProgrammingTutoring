@@ -3,7 +3,7 @@
 int main() {
     int num;
     scanf("%d", &num);
-    if (num / 10 == 0) printf("none\n");
+    if (num / 10 == 0 || num >= 100) printf("none\n");
     else if (num / 10 == 1) {
         switch (num % 10) {
             case 0: {
