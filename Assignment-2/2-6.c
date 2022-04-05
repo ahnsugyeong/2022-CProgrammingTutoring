@@ -4,7 +4,7 @@ int main() {
     int num;
     scanf("%d", &num);
 
-    if (num % 100 != 0 || num / 10000 != 1) printf("none");   // 잘못된 입력
+    if (num % 100 != 0 || num / 10000 != 1 || num / 1000 != 0) printf("none");   // 잘못된 입력
     else {
         switch (num / 100 % 10) {
             case 0: {

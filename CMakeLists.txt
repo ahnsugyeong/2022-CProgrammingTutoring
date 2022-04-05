@@ -3,4 +3,4 @@ project(Tutoring)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Tutoring Assignment-2/2-4.c)
+add_executable(Tutoring Assignment-2/2-5.c)
