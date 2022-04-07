@@ -1,27 +1,26 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main() {
-    char st;
-    int mon, man;
-    int b;
+    int N;
+    scanf("%d", &N);
+    int i = 1;
+    int M=0;
 
-    scanf("%c %d", &st, &b);
-    // z 100
-    if (b>=26) b = b % 26;
+    while (i <= N) {
+        scanf("%d", &M);
+        int cnt = 0;
+        i++;
 
-    mon = st + b;
-    man = st + b;
+        for (int j = 1; j <= M; j++) {
+            if (M % j == 0) {
+                printf("%d ", j);
+                cnt++;
+            }
 
+        }
+        printf("%d", cnt);
 
-    if (mon > 90)
-        mon -= 26;
-    if (man > 122)
-        man -= 26;
+    }
 
-    if (st >= 'A' && st <= 'Z')
-        printf("%c", mon);
-    else if (st >= 'a' && st <= 'z')
-        printf("%c", man);
-    else
-        printf("%c", st);
+    return 0;
+
 }
