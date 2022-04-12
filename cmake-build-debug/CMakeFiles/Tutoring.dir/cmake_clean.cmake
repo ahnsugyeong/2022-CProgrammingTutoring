@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tutoring.dir/2021-인증/5-3.c.o"
+  "CMakeFiles/Tutoring.dir/test.c.o"
   "Tutoring"
   "Tutoring.pdb"
 )

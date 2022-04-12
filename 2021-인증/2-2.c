@@ -33,7 +33,7 @@ int main() {
     if (big != 0 && small != 0) {
         // 첫 문자가 소문자
         if (first == 1) printf("%c%c", max_small, min_big);
-        // 첫 문자가 대문자
+            // 첫 문자가 대문자
         else if (first == 2) printf("%c%c", min_big, max_small);
     }
 

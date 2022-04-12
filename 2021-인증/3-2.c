@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-int main(){
+int main() {
     int N;
     scanf("%d", &N);
-    for(int i=0;i<N;i++) {
+    for (int i = 0; i < N; i++) {
         int num;
         scanf("%d", &num);
 
-        int sum = 0;
-
         // 각 자릿수의 합
+        int sum = 0;
         int tmp = num;
-        while (tmp) {
+        while (tmp > 0) {
             sum += tmp % 10;
             tmp /= 10;
         }
@@ -24,7 +23,7 @@ int main(){
             tmp /= 10;
         }
 
-        printf("%d %d %d %d\n", num, sum, reverse, reverse%13);
+        printf("%d %d %d %d\n", num, sum, reverse, reverse % 13);
     }
 
 

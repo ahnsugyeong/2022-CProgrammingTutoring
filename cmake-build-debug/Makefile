@@ -143,32 +143,32 @@ Tutoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/build
 .PHONY : Tutoring/fast
 
-2021-인증/5-3.o: 2021-인증/5-3.c.o
+test.o: test.c.o
 
-.PHONY : 2021-인증/5-3.o
+.PHONY : test.o
 
 # target to build an object file
-2021-인증/5-3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2021-인증/5-3.c.o
-.PHONY : 2021-인증/5-3.c.o
+test.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.o
+.PHONY : test.c.o
 
-2021-인증/5-3.i: 2021-인증/5-3.c.i
+test.i: test.c.i
 
-.PHONY : 2021-인증/5-3.i
+.PHONY : test.i
 
 # target to preprocess a source file
-2021-인증/5-3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2021-인증/5-3.c.i
-.PHONY : 2021-인증/5-3.c.i
+test.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.i
+.PHONY : test.c.i
 
-2021-인증/5-3.s: 2021-인증/5-3.c.s
+test.s: test.c.s
 
-.PHONY : 2021-인증/5-3.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-2021-인증/5-3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2021-인증/5-3.c.s
-.PHONY : 2021-인증/5-3.c.s
+test.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Tutoring"
-	@echo "... 2021-인증/5-3.o"
-	@echo "... 2021-인증/5-3.i"
-	@echo "... 2021-인증/5-3.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 
