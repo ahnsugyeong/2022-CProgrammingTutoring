@@ -3,4 +3,4 @@ project(Tutoring)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Tutoring Assignment-3/3-6-2.c)
+add_executable(Tutoring 2021-인증/5-3.c)

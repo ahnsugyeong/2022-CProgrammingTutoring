@@ -26,12 +26,11 @@ int main() {
             max_sum = sum;
         }
     }
-/*
- * 24
- * 12
- * 6
- * 3
- */
     printf("%d %d %d\n", max_num, max_cnt, max_sum);
     return 0;
 }
+
+/*
+ * 18
+ *
+ */

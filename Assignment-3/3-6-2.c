@@ -10,20 +10,15 @@ int main() {
 
             if (i == 0) {
                 printf("X\n");
-            }
-            else if (i == N - 1) {
+            } else if (i == N - 1) {
                 for (int j = 0; j < 2 * i + 1; j++) printf("X");
                 printf("\n");
-            }
-            else {
+            } else {
                 printf("X");
                 for (int j = 0; j < 2 * i - 1; j++) printf("O");
                 printf("X\n");
             }
-
         }
-
-
     }
 
 
