@@ -1,22 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
+
+#define SIZE 100
+
 int main() {
-    char a=0,max=0,min=0;
-    while (a != '0') {
-        scanf("%c", &a);
-        if (a >= 'A' && a <= 'Z') {
-            max = a;
-            if (a <= max) {
-                max = a;
-            }
-        }
-        else if (a >= 'a' && a <= 'z') {
-            min = a;
-            if (min <= a)
-                min = a;
-        }
-
+    int arr[20], N = 20, M, i, temp, cnt = 1;
+    for (int i = 0; i < 20; i++) {
+        arr[i] = cnt;
+        cnt++;
     }
-    printf("%c %c", max, min);
-    return 0;
+    scanf("%d", &M);
+    temp = arr[19];
 
+
+    for (i = N - 2; i >= (N - M); i--) arr[i + 1] = arr[i];
+    arr[N - M] = temp;
+    for(int i=0;i<20;i++)
+        printf("%d ", arr[i]);
+
+    return 0;
 }

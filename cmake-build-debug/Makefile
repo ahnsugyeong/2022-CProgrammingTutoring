@@ -143,32 +143,32 @@ Tutoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/build
 .PHONY : Tutoring/fast
 
-test.o: test.c.o
+Assignment-4/4-2.o: Assignment-4/4-2.c.o
 
-.PHONY : test.o
+.PHONY : Assignment-4/4-2.o
 
 # target to build an object file
-test.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.o
-.PHONY : test.c.o
+Assignment-4/4-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o
+.PHONY : Assignment-4/4-2.c.o
 
-test.i: test.c.i
+Assignment-4/4-2.i: Assignment-4/4-2.c.i
 
-.PHONY : test.i
+.PHONY : Assignment-4/4-2.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.i
-.PHONY : test.c.i
+Assignment-4/4-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.i
+.PHONY : Assignment-4/4-2.c.i
 
-test.s: test.c.s
+Assignment-4/4-2.s: Assignment-4/4-2.c.s
 
-.PHONY : test.s
+.PHONY : Assignment-4/4-2.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/test.c.s
-.PHONY : test.c.s
+Assignment-4/4-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.s
+.PHONY : Assignment-4/4-2.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Tutoring"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... Assignment-4/4-2.o"
+	@echo "... Assignment-4/4-2.i"
+	@echo "... Assignment-4/4-2.s"
 .PHONY : help
 
 
