@@ -143,32 +143,32 @@ Tutoring/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/build
 .PHONY : Tutoring/fast
 
-Assignment-4/4-2.o: Assignment-4/4-2.c.o
+2차모의인증/5-2.o: 2차모의인증/5-2.c.o
 
-.PHONY : Assignment-4/4-2.o
+.PHONY : 2차모의인증/5-2.o
 
 # target to build an object file
-Assignment-4/4-2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o
-.PHONY : Assignment-4/4-2.c.o
+2차모의인증/5-2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o
+.PHONY : 2차모의인증/5-2.c.o
 
-Assignment-4/4-2.i: Assignment-4/4-2.c.i
+2차모의인증/5-2.i: 2차모의인증/5-2.c.i
 
-.PHONY : Assignment-4/4-2.i
+.PHONY : 2차모의인증/5-2.i
 
 # target to preprocess a source file
-Assignment-4/4-2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.i
-.PHONY : Assignment-4/4-2.c.i
+2차모의인증/5-2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.i
+.PHONY : 2차모의인증/5-2.c.i
 
-Assignment-4/4-2.s: Assignment-4/4-2.c.s
+2차모의인증/5-2.s: 2차모의인증/5-2.c.s
 
-.PHONY : Assignment-4/4-2.s
+.PHONY : 2차모의인증/5-2.s
 
 # target to generate assembly for a file
-Assignment-4/4-2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.s
-.PHONY : Assignment-4/4-2.c.s
+2차모의인증/5-2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tutoring.dir/build.make CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.s
+.PHONY : 2차모의인증/5-2.c.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Tutoring"
-	@echo "... Assignment-4/4-2.o"
-	@echo "... Assignment-4/4-2.i"
-	@echo "... Assignment-4/4-2.s"
+	@echo "... 2차모의인증/5-2.o"
+	@echo "... 2차모의인증/5-2.i"
+	@echo "... 2차모의인증/5-2.s"
 .PHONY : help
 
 

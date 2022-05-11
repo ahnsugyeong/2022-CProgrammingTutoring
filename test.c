@@ -1,21 +1,44 @@
 #include <stdio.h>
 
-#define SIZE 100
-
 int main() {
-    int arr[20], N = 20, M, i, temp, cnt = 1;
-    for (int i = 0; i < 20; i++) {
-        arr[i] = cnt;
-        cnt++;
+    int x[50], i, j, flag = 0, cnt;
+
+    int N;
+    scanf("%d", &N);
+    for (i = 0; i < N; i++) {
+
+        scanf("%d", &x[i]);
+
     }
-    scanf("%d", &M);
-    temp = arr[19];
 
+    for (i = 0; i < N; i++) {
 
-    for (i = N - 2; i >= (N - M); i--) arr[i + 1] = arr[i];
-    arr[N - M] = temp;
-    for(int i=0;i<20;i++)
-        printf("%d ", arr[i]);
+        cnt = 0;
+
+        flag = 0;
+
+        for (j = 0; j < i; j++) {
+
+            if (x[i] == x[j])
+
+                flag = 1;
+
+        }
+
+        for (j = 0; j < N; j++) {
+
+            if (x[i] == x[j])
+
+                cnt++;
+
+        }
+
+        if (flag == 0)
+
+            printf("%d %d\n", x[i], cnt);
+
+    }
 
     return 0;
+
 }

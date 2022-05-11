@@ -77,27 +77,27 @@ include CMakeFiles/Tutoring.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tutoring.dir/flags.make
 
-CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o: CMakeFiles/Tutoring.dir/flags.make
-CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o: ../Assignment-4/4-2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahnsugyeong/Desktop/2022/Tutoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o   -c /Users/ahnsugyeong/Desktop/2022/Tutoring/Assignment-4/4-2.c
+CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o: CMakeFiles/Tutoring.dir/flags.make
+CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o: ../2차모의인증/5-2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ahnsugyeong/Desktop/2022/Tutoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o   -c /Users/ahnsugyeong/Desktop/2022/Tutoring/2차모의인증/5-2.c
 
-CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ahnsugyeong/Desktop/2022/Tutoring/Assignment-4/4-2.c > CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.i
+CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ahnsugyeong/Desktop/2022/Tutoring/2차모의인증/5-2.c > CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.i
 
-CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ahnsugyeong/Desktop/2022/Tutoring/Assignment-4/4-2.c -o CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.s
+CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ahnsugyeong/Desktop/2022/Tutoring/2차모의인증/5-2.c -o CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.s
 
 # Object files for target Tutoring
 Tutoring_OBJECTS = \
-"CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o"
+"CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o"
 
 # External object files for target Tutoring
 Tutoring_EXTERNAL_OBJECTS =
 
-Tutoring: CMakeFiles/Tutoring.dir/Assignment-4/4-2.c.o
+Tutoring: CMakeFiles/Tutoring.dir/2차모의인증/5-2.c.o
 Tutoring: CMakeFiles/Tutoring.dir/build.make
 Tutoring: CMakeFiles/Tutoring.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ahnsugyeong/Desktop/2022/Tutoring/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Tutoring"
